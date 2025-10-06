@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pernikahan Ayu & Bima</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="hero">
+      <h1>Ayu & Bima</h1>
+      <p>Mengikat janji suci — Sabtu, 12 April 2026</p>
+      <p>Bale Kerta, Bandung</p>
+      <div class="buttons">
+        <a href="#rsvp" class="btn">Konfirmasi Kehadiran</a>
+        <a href="#gallery" class="btn-outline">Lihat Galeri</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Tentang Kami -->
+      <section id="story" class="card">
+        <h2>Tentang Kami</h2>
+        <p>
+          Hai semua — kami, <strong>Ayu</strong> dan <strong>Bima</strong>,
+          ingin berbagi sedikit cerita. Dari pertemuan singkat sampai akhirnya
+          memutuskan untuk melangkah bersama. Kami berharap kamu bisa hadir dan
+          merayakan hari bahagia ini.
+        </p>
+      </section>
+
+      <!-- Jadwal Acara -->
+      <section id="schedule" class="card">
+        <h2>Jadwal Acara</h2>
+        <div class="grid">
+          <div class="box">
+            <h3>Akad Nikah</h3>
+            <p>09:00 - 10:00</p>
+            <p>Lokasi: Bale Kerta - Aula Utama</p>
+          </div>
+          <div class="box">
+            <h3>Resepsi</h3>
+            <p>11:00 - 14:00</p>
+            <p>Lokasi: Taman Depan Gedung</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galeri -->
+      <section id="gallery" class="card">
+        <h2>Galeri</h2>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600" alt="">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600" alt="">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600" alt="">
+          <img src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=600" alt="">
+        </div>
+      </section>
+
+      <!-- RSVP -->
+      <section id="rsvp" class="card">
+        <h2>Konfirmasi Kehadiran (RSVP)</h2>
+        <form id="rsvp-form">
+          <label>Nama lengkap</label>
+          <input type="text" name="name" required />
+
+          <label>Bisa hadir?</label>
+          <select name="attending">
+            <option value="ya">Ya, hadir</option>
+            <option value="tidak">Tidak bisa</option>
+          </select>
+
+          <label>Jumlah tamu (termasuk kamu)</label>
+          <input type="number" name="guests" min="1" value="1" />
+
+          <label>Pesan untuk kami (opsional)</label>
+          <textarea name="message"></textarea>
+
+          <button type="submit" class="btn">Kirim RSVP</button>
+        </form>
+        <div id="thankyou" class="hidden">Terima kasih! RSVP kamu sudah terkirim 💌</div>
+      </section>
+
+      <!-- Kado -->
+      <section id="gift" class="card">
+        <h2>Kado & Amplop</h2>
+        <ul>
+          <li>BCA: 123-456-7890 a.n. Ayu B.</li>
+          <li>GoPay: 0812-3456-7890 (Ayu)</li>
+          <li>Atau langsung di hari H.</li>
+        </ul>
+      </section>
+
+      <!-- Lokasi -->
+      <section id="contact" class="card">
+        <h2>Lokasi & Kontak</h2>
+        <div class="grid">
+          <div>
+            <p><strong>Lokasi:</strong> Cluster Mutiara, Karawang Timur</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7662561413576!2d107.33005287345338!3d-6.2944191936946305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69777358c79c3f%3A0x3e128e678d8f1dc3!2sCluster%20Mutiara!5e0!3m2!1sid!2sid!4v1759751717507!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div>
+            <p><strong>Kontak:</strong></p>
+            <p>Ayu - 0812-3456-7890</p>
+            <p>Bima - 0821-9876-5432</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Dengan penuh cinta — Ayu & Bima • Sabtu, 12 April 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
